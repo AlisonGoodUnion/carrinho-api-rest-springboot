@@ -3,6 +3,9 @@
 Api contém, JPA, Spring, Hibernate, H2, Swagger, REST.
 Aplicação com Spring que implemente os requisitos abaixo:
 
+## Documentação
+[Documentação Swagger](http://localhost:8080/swagger-ui.html#/)
+
 ## Domínio
 
 ### Carrinho
