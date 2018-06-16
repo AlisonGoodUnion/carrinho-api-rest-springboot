@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiResponses;
 public interface CarrinhoApi {
 
     @ApiOperation(
-            value = "Buscar Carrinho",
+            value = "Buscar carrinho",
             notes = "Retorna todos os dados do carrinho")
     @ApiResponses({
             @ApiResponse(code = 200, message = "Consulta realizada com sucesso.")})
