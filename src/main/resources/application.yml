@@ -13,7 +13,15 @@ logging:
   level:
     org.hibernate.SQL: debug
     org.springframework.web: ERROR
-    #org.hibernate.type.descriptor.sql: trace
+    org.hibernate.type.descriptor.sql: trace
     pattern:
         console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
         file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
